@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ADED031495EE3BF002722A45 /* Pods_CreditScoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB81BF4DDE88EBE8FFE65200 /* Pods_CreditScoreTests.framework */; };
+		B5B407DB4AE3FC762524D790 /* Pods_CreditScore_CreditScoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 121C5F6D1E9ACC99DC08DCFF /* Pods_CreditScore_CreditScoreTests.framework */; };
 		C50369474BDFE3F3AA0901EA /* Pods_CreditScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F864630B53D1EB397E0A1CF /* Pods_CreditScore.framework */; };
 		D21F52112212047800190110 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21F52102212047800190110 /* Application.swift */; };
 		D21F52142212049900190110 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21F52132212049900190110 /* DashboardViewController.swift */; };
@@ -40,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		121C5F6D1E9ACC99DC08DCFF /* Pods_CreditScore_CreditScoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditScore_CreditScoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F864630B53D1EB397E0A1CF /* Pods_CreditScore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditScore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FB18620EC952AA1FDAC7B0 /* Pods-CreditScore-CreditScoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditScore-CreditScoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreditScore-CreditScoreTests/Pods-CreditScore-CreditScoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		40A6BCF30D993038DCB477C1 /* Pods-CreditScoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditScoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreditScoreTests/Pods-CreditScoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C8D64E4F14641CD7C5FF373 /* Pods-CreditScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditScore.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreditScore/Pods-CreditScore.release.xcconfig"; sourceTree = "<group>"; };
+		902D41C5A3874D9113E12D22 /* Pods-CreditScore-CreditScoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditScore-CreditScoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreditScore-CreditScoreTests/Pods-CreditScore-CreditScoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB81BF4DDE88EBE8FFE65200 /* Pods_CreditScoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditScoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D4F80ABE4DD90E08C71EA0 /* Pods-CreditScoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditScoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreditScoreTests/Pods-CreditScoreTests.release.xcconfig"; sourceTree = "<group>"; };
 		CBBA88C54F0023F86874520F /* Pods-CreditScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditScore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreditScore/Pods-CreditScore.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADED031495EE3BF002722A45 /* Pods_CreditScoreTests.framework in Frameworks */,
+				B5B407DB4AE3FC762524D790 /* Pods_CreditScore_CreditScoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +102,8 @@
 				8C8D64E4F14641CD7C5FF373 /* Pods-CreditScore.release.xcconfig */,
 				40A6BCF30D993038DCB477C1 /* Pods-CreditScoreTests.debug.xcconfig */,
 				B5D4F80ABE4DD90E08C71EA0 /* Pods-CreditScoreTests.release.xcconfig */,
+				902D41C5A3874D9113E12D22 /* Pods-CreditScore-CreditScoreTests.debug.xcconfig */,
+				29FB18620EC952AA1FDAC7B0 /* Pods-CreditScore-CreditScoreTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -224,6 +231,7 @@
 			children = (
 				1F864630B53D1EB397E0A1CF /* Pods_CreditScore.framework */,
 				AB81BF4DDE88EBE8FFE65200 /* Pods_CreditScoreTests.framework */,
+				121C5F6D1E9ACC99DC08DCFF /* Pods_CreditScore_CreditScoreTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -472,6 +480,7 @@
 		D28D21B6221201FF00951118 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -533,6 +542,7 @@
 		D28D21B7221201FF00951118 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -589,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBBA88C54F0023F86874520F /* Pods-CreditScore.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -610,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C8D64E4F14641CD7C5FF373 /* Pods-CreditScore.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -631,7 +643,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40A6BCF30D993038DCB477C1 /* Pods-CreditScoreTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CreditScoreTests/Info.plist;
@@ -652,7 +664,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5D4F80ABE4DD90E08C71EA0 /* Pods-CreditScoreTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CreditScoreTests/Info.plist;
